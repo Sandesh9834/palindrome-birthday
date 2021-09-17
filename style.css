@@ -2,22 +2,35 @@ body{
       background-color: #D1C4E9;
 }
 
-label,
-#date{
-      padding: 0.5rem;
-      border-radius: 1px;
-      margin-bottom: 0.5rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 200px;
-      font-size: large;
+main 
+{
+      text-align: center;
+      margin: 3rem;
 }
 
-h2{
+h2
+{
       text-align: center;
       color: #391e7c;
 }
+
+.input-label 
+{
+      display: block;
+      font-size: large;
+      font-weight: 600;
+}
+
+.input {
+      font-size: 14px;
+      outline: #fff;
+      padding: 0.6rem 1rem;
+      margin: 1rem;
+      border: 2px solid #19054d;
+      border-radius: 0.5rem;
+      width: 100%;
+      max-width: 258px;
+    }
 
 button{
       background-color: #e7630b;
@@ -32,16 +45,6 @@ button{
       margin-right: auto;
 }
 
-#number{
-      border-radius: 1px;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 200px;
-}
-
 p{
       font-size: larger;
       /* color: #19054d; */
@@ -49,20 +52,6 @@ p{
       font-weight: bold;
 }
  
-#label1{
-      font-size: larger;
-      color: #19054d;
-      font-weight: bold;
-      margin-bottom: 10px;
-}
-
-#label2{
-      font-size: larger;
-      margin-bottom: 10px;
-      color: #19054d;
-      font-weight: bold;
-} 
-
 footer {
       text-align: center;
       position: absolute;
